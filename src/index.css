@@ -1,0 +1,29 @@
+#root
+{
+  width: 100%;
+  height: 100vh;
+  margin: 2rem 0;
+}
+
+.currentDate
+{
+  color: white;
+  width: 40%;
+  margin: 0 auto;
+}
+
+#clickme{
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#clickme button{
+  background-color: greenyellow;
+  padding: 2rem;
+  border: 1rem solid white;
+  font-size: 2rem;
+  box-sizing: border-box;
+}
